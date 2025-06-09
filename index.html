@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RopaNova360 - Ropa Deportiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="imagenes/logo-ropanova360.PNG" alt="RopaNova360" class="logo-img">
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú">&#9776;</button>
+    <nav class="menu" id="menu" aria-label="Menú principal">
+      <ul>
+        <li onclick="filterCategory('Zapatos')" tabindex="0">Zapatos</li>
+        <li onclick="filterCategory('Camisas')" tabindex="0">Camisas</li>
+        <li onclick="filterCategory('Bermudas')" tabindex="0">Bermudas</li>
+        <li onclick="filterCategory('Conjuntos')" tabindex="0">Conjuntos</li>
+        <li onclick="filterCategory('Todos')" tabindex="0">Todos</li>
+      </ul>
+    </nav>
+    <div class="cart" id="cart" aria-label="Ver carrito de compras">🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <main>
+    <section class="products" id="products" aria-live="polite" aria-atomic="true">
+      <!-- Productos insertados dinámicamente -->
+    </section>
+  </main>
+
+  <aside class="cart-panel" id="cart-panel" aria-label="Panel del carrito de compras" aria-hidden="true">
+    <h3>Carrito</h3>
+    <ul id="cart-items"></ul>
+    <a href="checkout.html" class="btn-confirm" id="ir-a-pagar" aria-label="Ir a Pagar">Ir a Pagar</a>
+    <button id="close-cart" aria-label="Cerrar carrito">Cerrar</button>
+  </aside>
+
+  <script src="script.js"></script>
+  <footer class="footer">
+    © 2025 RopaNova360. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
+
+
