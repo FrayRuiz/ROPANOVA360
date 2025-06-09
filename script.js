@@ -1,12 +1,12 @@
 const products = [
-  { nombre: "Tenis Running Hombre", precio: 179000, descripcion: "Tenis livianos y transpirables para correr.", categoria: "Zapatos", imagen: "img/tenis-running-hombre.jpg" },
-  { nombre: "Zapatillas Urbanas Mujer", precio: 145000, descripcion: "Estilo deportivo urbano para uso diario.", categoria: "Zapatos", imagen: "img/zapatillas-urbanas-mujer.jpg" },
-  { nombre: "Camisa DryFit Hombre", precio: 45000, descripcion: "Tecnología DryFit ideal para entrenamientos.", categoria: "Camisas", imagen: "img/camisa-dryfit-hombre.jpg" },
-  { nombre: "Camisa Crop Mujer", precio: 42000, descripcion: "Estilo corto y fresco, ideal para el gym.", categoria: "Camisas", imagen: "img/camisa-crop-mujer.jpg" },
-  { nombre: "Bermuda Running Hombre", precio: 60000, descripcion: "Ligera y de secado rápido.", categoria: "Bermudas", imagen: "img/bermuda-running-hombre.jpg" },
-  { nombre: "Bermuda Ciclista Mujer", precio: 58000, descripcion: "Ajuste perfecto para actividades intensas.", categoria: "Bermudas", imagen: "img/bermuda-ciclista-mujer.jpg" },
-  { nombre: "Conjunto Deportivo Hombre", precio: 130000, descripcion: "Camiseta + pantalón, diseño moderno.", categoria: "Conjuntos", imagen: "img/conjunto-deportivo-hombre.jpg" },
-  { nombre: "Set Deportivo Mujer", precio: 125000, descripcion: "Top + leggins, ideal para yoga o fitness.", categoria: "Conjuntos", imagen: "img/set-deportivo-mujer.jpg" }
+  { nombre: "Tenis Running Hombre", precio: 179000, descripcion: "Tenis livianos y transpirables para correr.", categoria: "Zapatos", imagen:"imagenes/tenis-running-hombre.png" },
+  { nombre: "Zapatillas Urbanas Mujer", precio: 145000, descripcion: "Estilo deportivo urbano para uso diario.", categoria: "Zapatos", imagen: "Imagenes/Zapatillas-Urbanas-Mujer.jpeg" },
+  { nombre: "Camisa DryFit Hombre", precio: 45000, descripcion: "Tecnología DryFit ideal para entrenamientos.", categoria: "Camisas", imagen: "Imagenes/Camisa-DryFit-Hombre.jpg" },
+  { nombre: "Camisa Crop Mujer", precio: 42000, descripcion: "Estilo corto y fresco, ideal para el gym.", categoria: "Camisas", imagen: "Imagenes/Camisa-Crop-Mujer.jpeg" },
+  { nombre: "Bermuda Running Hombre", precio: 60000, descripcion: "Ligera y de secado rápido.", categoria: "Bermudas", imagen: "Imagenes/Bermuda-Running-Hombre.png" },
+  { nombre: "Bermuda Ciclista Mujer", precio: 58000, descripcion: "Ajuste perfecto para actividades intensas.", categoria: "Bermudas", imagen: "Imagenes/Bermuda-Ciclista-Mujer.png" },
+  { nombre: "Conjunto Deportivo Hombre", precio: 130000, descripcion: "Camiseta + pantalón, diseño moderno.", categoria: "Conjuntos", imagen: "Imagenes/Conjunto-Deportivo-Hombre.jpeg" },
+  { nombre: "Set Deportivo Mujer", precio: 125000, descripcion: "Top + leggins, ideal para yoga o fitness.", categoria: "Conjuntos", imagen: "Imagenes/Set-Deportivo-Mujer.jpg" }
 ];
 
 function getSizeOptions(categoria) {
